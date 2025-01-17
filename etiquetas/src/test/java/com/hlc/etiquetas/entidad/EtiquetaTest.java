@@ -36,7 +36,7 @@ class EtiquetaTest {
 	        assertEquals("Etiqueta para tareas normales", etiqueta.getDescripcion(), "La descripción no es la esperada");
 	        assertFalse(etiqueta.getActivo(), "El estado activo no es el esperado");
 	        assertEquals(3, etiqueta.getPrioridad(), "La prioridad no es la esperada");
-	        assertEquals("azul", etiqueta.getColor(), "El color no es el esperado");
+	        assertEquals("verde", etiqueta.getColor(), "El color no es el esperado");
 	    }
 
 
